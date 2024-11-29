@@ -1,11 +1,8 @@
 import React from 'react'
 
 const todos = () => {
-    
-
-    l
   return (
-    
+    <div></div>
   )
 }
 
