@@ -57,7 +57,10 @@ export const TodosProvider = ({ children }: TodosProviderProps) => {
           return { ...todo, completed: !todo.completed };
         }
         return todo;
-      });
+      })
+      localStorage.setItem("todos",JSON.stringify(newTodos))
+
+     
       return newTodos;
     });
   };
