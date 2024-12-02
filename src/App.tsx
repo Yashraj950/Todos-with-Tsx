@@ -1,4 +1,5 @@
 import AddToDo from "./components/AddToDo"
+import {Todos }from "./components/Todos"
 
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <main>
       <h1>TODO REACT + TYPESCRIPT</h1>
       <AddToDo/>
+      <Todos  />
     </main>
   )
 }
